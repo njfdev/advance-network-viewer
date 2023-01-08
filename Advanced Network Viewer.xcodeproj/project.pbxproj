@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AF778E296A6C39007AE5C9 /* Advanced_Network_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF778D296A6C39007AE5C9 /* Advanced_Network_ViewerApp.swift */; };
+		01AF7790296A6C39007AE5C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF778F296A6C39007AE5C9 /* ContentView.swift */; };
+		01AF7792296A6C3A007AE5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AF7791296A6C3A007AE5C9 /* Assets.xcassets */; };
+		01AF7795296A6C3A007AE5C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AF7794296A6C3A007AE5C9 /* Preview Assets.xcassets */; };
+		01AF77A0296A6C3A007AE5C9 /* Advanced_Network_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF779F296A6C3A007AE5C9 /* Advanced_Network_ViewerTests.swift */; };
+		01AF77AA296A6C3A007AE5C9 /* Advanced_Network_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF77A9296A6C3A007AE5C9 /* Advanced_Network_ViewerUITests.swift */; };
+		01AF77AC296A6C3A007AE5C9 /* Advanced_Network_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF77AB296A6C3A007AE5C9 /* Advanced_Network_ViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AF779C296A6C3A007AE5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AF7782296A6C39007AE5C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AF7789296A6C39007AE5C9;
+			remoteInfo = "Advanced Network Viewer";
+		};
+		01AF77A6296A6C3A007AE5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AF7782296A6C39007AE5C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AF7789296A6C39007AE5C9;
+			remoteInfo = "Advanced Network Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AF778A296A6C39007AE5C9 /* Advanced Network Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Network Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AF778D296A6C39007AE5C9 /* Advanced_Network_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Network_ViewerApp.swift; sourceTree = "<group>"; };
+		01AF778F296A6C39007AE5C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01AF7791296A6C3A007AE5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AF7794296A6C3A007AE5C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01AF7796296A6C3A007AE5C9 /* Advanced_Network_Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Advanced_Network_Viewer.entitlements; sourceTree = "<group>"; };
+		01AF779B296A6C3A007AE5C9 /* Advanced Network ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Network ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AF779F296A6C3A007AE5C9 /* Advanced_Network_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Network_ViewerTests.swift; sourceTree = "<group>"; };
+		01AF77A5296A6C3A007AE5C9 /* Advanced Network ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Network ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AF77A9296A6C3A007AE5C9 /* Advanced_Network_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Network_ViewerUITests.swift; sourceTree = "<group>"; };
+		01AF77AB296A6C3A007AE5C9 /* Advanced_Network_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Network_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AF7787296A6C39007AE5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF7798296A6C3A007AE5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF77A2296A6C3A007AE5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AF7781296A6C39007AE5C9 = {
+			isa = PBXGroup;
+			children = (
+				01AF778C296A6C39007AE5C9 /* Advanced Network Viewer */,
+				01AF779E296A6C3A007AE5C9 /* Advanced Network ViewerTests */,
+				01AF77A8296A6C3A007AE5C9 /* Advanced Network ViewerUITests */,
+				01AF778B296A6C39007AE5C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AF778B296A6C39007AE5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AF778A296A6C39007AE5C9 /* Advanced Network Viewer.app */,
+				01AF779B296A6C3A007AE5C9 /* Advanced Network ViewerTests.xctest */,
+				01AF77A5296A6C3A007AE5C9 /* Advanced Network ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AF778C296A6C39007AE5C9 /* Advanced Network Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				01AF778D296A6C39007AE5C9 /* Advanced_Network_ViewerApp.swift */,
+				01AF778F296A6C39007AE5C9 /* ContentView.swift */,
+				01AF7791296A6C3A007AE5C9 /* Assets.xcassets */,
+				01AF7796296A6C3A007AE5C9 /* Advanced_Network_Viewer.entitlements */,
+				01AF7793296A6C3A007AE5C9 /* Preview Content */,
+			);
+			path = "Advanced Network Viewer";
+			sourceTree = "<group>";
+		};
+		01AF7793296A6C3A007AE5C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01AF7794296A6C3A007AE5C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01AF779E296A6C3A007AE5C9 /* Advanced Network ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				01AF779F296A6C3A007AE5C9 /* Advanced_Network_ViewerTests.swift */,
+			);
+			path = "Advanced Network ViewerTests";
+			sourceTree = "<group>";
+		};
+		01AF77A8296A6C3A007AE5C9 /* Advanced Network ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01AF77A9296A6C3A007AE5C9 /* Advanced_Network_ViewerUITests.swift */,
+				01AF77AB296A6C3A007AE5C9 /* Advanced_Network_ViewerUITestsLaunchTests.swift */,
+			);
+			path = "Advanced Network ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AF7789296A6C39007AE5C9 /* Advanced Network Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AF77AF296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network Viewer" */;
+			buildPhases = (
+				01AF7786296A6C39007AE5C9 /* Sources */,
+				01AF7787296A6C39007AE5C9 /* Frameworks */,
+				01AF7788296A6C39007AE5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced Network Viewer";
+			productName = "Advanced Network Viewer";
+			productReference = 01AF778A296A6C39007AE5C9 /* Advanced Network Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AF779A296A6C3A007AE5C9 /* Advanced Network ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AF77B2296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network ViewerTests" */;
+			buildPhases = (
+				01AF7797296A6C3A007AE5C9 /* Sources */,
+				01AF7798296A6C3A007AE5C9 /* Frameworks */,
+				01AF7799296A6C3A007AE5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AF779D296A6C3A007AE5C9 /* PBXTargetDependency */,
+			);
+			name = "Advanced Network ViewerTests";
+			productName = "Advanced Network ViewerTests";
+			productReference = 01AF779B296A6C3A007AE5C9 /* Advanced Network ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AF77A4296A6C3A007AE5C9 /* Advanced Network ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AF77B5296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network ViewerUITests" */;
+			buildPhases = (
+				01AF77A1296A6C3A007AE5C9 /* Sources */,
+				01AF77A2296A6C3A007AE5C9 /* Frameworks */,
+				01AF77A3296A6C3A007AE5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AF77A7296A6C3A007AE5C9 /* PBXTargetDependency */,
+			);
+			name = "Advanced Network ViewerUITests";
+			productName = "Advanced Network ViewerUITests";
+			productReference = 01AF77A5296A6C3A007AE5C9 /* Advanced Network ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AF7782296A6C39007AE5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					01AF7789296A6C39007AE5C9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					01AF779A296A6C3A007AE5C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 01AF7789296A6C39007AE5C9;
+					};
+					01AF77A4296A6C3A007AE5C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 01AF7789296A6C39007AE5C9;
+					};
+				};
+			};
+			buildConfigurationList = 01AF7785296A6C39007AE5C9 /* Build configuration list for PBXProject "Advanced Network Viewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AF7781296A6C39007AE5C9;
+			productRefGroup = 01AF778B296A6C39007AE5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AF7789296A6C39007AE5C9 /* Advanced Network Viewer */,
+				01AF779A296A6C3A007AE5C9 /* Advanced Network ViewerTests */,
+				01AF77A4296A6C3A007AE5C9 /* Advanced Network ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AF7788296A6C39007AE5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AF7795296A6C3A007AE5C9 /* Preview Assets.xcassets in Resources */,
+				01AF7792296A6C3A007AE5C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF7799296A6C3A007AE5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF77A3296A6C3A007AE5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AF7786296A6C39007AE5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AF7790296A6C39007AE5C9 /* ContentView.swift in Sources */,
+				01AF778E296A6C39007AE5C9 /* Advanced_Network_ViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF7797296A6C3A007AE5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AF77A0296A6C3A007AE5C9 /* Advanced_Network_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AF77A1296A6C3A007AE5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AF77AA296A6C3A007AE5C9 /* Advanced_Network_ViewerUITests.swift in Sources */,
+				01AF77AC296A6C3A007AE5C9 /* Advanced_Network_ViewerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AF779D296A6C3A007AE5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AF7789296A6C39007AE5C9 /* Advanced Network Viewer */;
+			targetProxy = 01AF779C296A6C3A007AE5C9 /* PBXContainerItemProxy */;
+		};
+		01AF77A7296A6C3A007AE5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AF7789296A6C39007AE5C9 /* Advanced Network Viewer */;
+			targetProxy = 01AF77A6296A6C3A007AE5C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AF77AD296A6C3A007AE5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01AF77AE296A6C3A007AE5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		01AF77B0296A6C3A007AE5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Advanced Network Viewer/Advanced_Network_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advanced Network Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01AF77B1296A6C3A007AE5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Advanced Network Viewer/Advanced_Network_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advanced Network Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		01AF77B3296A6C3A007AE5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Network Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Advanced Network Viewer";
+			};
+			name = Debug;
+		};
+		01AF77B4296A6C3A007AE5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Network Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Advanced Network Viewer";
+			};
+			name = Release;
+		};
+		01AF77B6296A6C3A007AE5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Advanced Network Viewer";
+			};
+			name = Debug;
+		};
+		01AF77B7296A6C3A007AE5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MGUVRXK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.njf.Advanced-Network-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Advanced Network Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AF7785296A6C39007AE5C9 /* Build configuration list for PBXProject "Advanced Network Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AF77AD296A6C3A007AE5C9 /* Debug */,
+				01AF77AE296A6C3A007AE5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AF77AF296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AF77B0296A6C3A007AE5C9 /* Debug */,
+				01AF77B1296A6C3A007AE5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AF77B2296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AF77B3296A6C3A007AE5C9 /* Debug */,
+				01AF77B4296A6C3A007AE5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AF77B5296A6C3A007AE5C9 /* Build configuration list for PBXNativeTarget "Advanced Network ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AF77B6296A6C3A007AE5C9 /* Debug */,
+				01AF77B7296A6C3A007AE5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01AF7782296A6C39007AE5C9 /* Project object */;
+}
