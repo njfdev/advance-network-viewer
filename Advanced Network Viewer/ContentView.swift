@@ -8,44 +8,61 @@
 import SwiftUI
 import Network
 
-struct ContentView: View {
+extension NWInterface.InterfaceType {
+    var stringRepresentation: String {
+            switch self {
+            case .cellular: return "Cellular"
+            case .wiredEthernet: return "Ethernet"
+            case .wifi: return "Wi-Fi"
+            case .loopback: return "Loopback"
+            default: return "Other"
+        }
+    }
+}
+
+class NetworkMonitor: ObservableObject {
+    @Published var networkInterfaces: [NWInterface] = []
+
     init() {
         let monitor = NWPathMonitor()
 
-        monitor.pathUpdateHandler = { path in
+        monitor.pathUpdateHandler = { [self] (path) in
             if path.status == .satisfied {
-                print("The device is connected to the network.")
-                
                 // Get the list of available interfaces
                 let interfaces = path.availableInterfaces
-                for interface in interfaces {
-                    // Print the interface type (e.g. "Wi-Fi", "Ethernet", etc.)
-                    print(interface.type)
-                    
-                    // Print the interface name (e.g. "en0", "en1", etc.)
-                    print(interface.name)
+                
+                DispatchQueue.main.async {
+                    self.networkInterfaces = interfaces
+                    print(interfaces)
                 }
             }
-            else {
-                print("The device is not connected to the network.")
-            }
         }
-
-        let queue = DispatchQueue(label: "Monitor")
-        monitor.start(queue: queue)
-
+        
+        monitor.start(queue: DispatchQueue(label: "Monitor"))
     }
+}
+
+struct ContentView: View {
+    @ObservedObject private var networkMonitor = NetworkMonitor()
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ForEach(self.networkMonitor.networkInterfaces, id: \.name) { interface in
+                HStack {
+                    switch interface.type {
+                    case .cellular: Image(systemName: "cellularbars")
+                    case .wifi: Image(systemName: "wifi")
+                    case .wiredEthernet: Image(systemName: "network")
+                    default: Image(systemName: "questionmark.circle")
+                    }
+                    Text(interface.name)
+                }
+            }
         }
         .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
